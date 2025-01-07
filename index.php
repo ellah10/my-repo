@@ -146,7 +146,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit_review'])) {
             <div class="book">
                 <div class="book_info">
                     <h2 class="subtitle"><?= htmlspecialchars($book['title']) ?></h2>
-                    <p>Author: <?= htmlspecialchars($book['author']) ?></p>
+                    <p>Authore: <?= htmlspecialchars($book['author']) ?></p>
                     <p>Price: $<?= htmlspecialchars($book['price']) ?></p>
                     <p><?= htmlspecialchars($book['description']) ?></p>
                     <img src="uploads/<?= htmlspecialchars($book['cover_image']) ?>" class="book-image" alt="<?= htmlspecialchars($book['title']) ?>" width="200">
@@ -195,7 +195,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit_review'])) {
                             <button type="submit" name="submit_review" class="btn">Submit Review</button>
                         </form>
                     <?php else: ?>
-                        <p>Please <a href="login.php">log in</a> to add a review.</p>
+                        <p>Please <a href="login.php">log in</a> To Add a Review.</p>
                     <?php endif; ?>
                 </div>
             </div>
