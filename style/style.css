@@ -1,0 +1,235 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.title {
+    color: #203748;
+    text-align: center;
+    padding: 20px 0 0 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 50px;
+}
+
+.search-bar {
+    width: 100%;
+    margin: 40px auto;
+    max-width: 300px;
+    padding:  20px;
+    border-radius: 30px;
+    color: #000;
+    font-size: 17px;
+}
+
+form .select-control {
+    padding: 10px 20px;
+    margin: 0 20px;
+}
+
+form p {
+    font-size: 20px;
+    padding: 0 0 20px 0;
+}
+
+form .form-control {
+    padding: 10px 20px;
+}
+
+.btn {
+    width: auto;
+    background-color: #28a6c1;
+    border: none;
+    padding: 10px 30px;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 15px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.btn:hover {
+    background-color: #203748;
+}
+
+.container a {
+    color: #28a6c1;
+    font-size: 23px;
+    text-decoration: none;
+    margin: 0 10px 0 0;
+}
+
+.container .book {
+    width: 100%;
+    margin: 50px 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.book .book_info {
+    width: 50%;
+}
+
+
+.book .subtitle {
+    color: #203748;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.book p {
+    margin: 20px 0 20px 0;
+    font-size: 20px;
+}
+
+.book-info img {
+    width: 200px;
+    height: auto;
+    background-position: center;
+    object-fit: cover;
+}
+
+.book .cart {
+    width: 50%;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cart form {
+    width: 100%;
+}
+
+
+.cart form label {
+    font-size: 25px;
+}
+
+.cart form input {
+    margin: 0 15px;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+.cart  h3 {
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+.cart li {
+    list-style: none;
+}
+
+.cart li strong {
+    font-size: 20px;
+}
+
+.cart .cart-btn {
+    margin-top: 50px;
+}
+
+table {
+    width: 100%;
+    border-color: collapse;
+    background-color: #00163E;
+    margin: 50px 0;
+    text-align: center;
+}
+table tr {
+    background: rgb(113, 99, 186);
+    color: #fff;
+    font-size: 18px;
+}
+table tr th {
+    padding: 25px;
+}
+
+td {
+    padding: 20px;
+    width: 20px;
+}
+
+td a {
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.add-btn {
+    background-color: #28a6c1;
+}
+
+.del-btn {
+    background-color: #00163E;
+} 
+
+.form {
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: #00163E;
+}
+
+.form .form-group {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.form-group label {
+    font-size: 17px;
+    margin: 10px 0;
+}
+
+.form-group input {
+    border: none;
+    outline: none;
+    font-size: 17px;
+}
+
+.form-group select {
+    border: none;
+    outline: none;
+    min-height: 40px;
+}
+.form-group .back-btn {
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    margin: 20px 0;
+}
+
+.form-group .check {
+    margin-bottom: 20px;
+}
+
+.return-btn {
+    color: #000;
+    padding: 20px 0;
+    font-size: 23px;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.form-group .login {
+    margin-top: 20px ;
+}
+
+form .message {
+    color: red;
+    padding: 15px 0;
+}
+
+.form-group .register {
+    margin-top: 20px  ;
+}
