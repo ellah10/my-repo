@@ -118,6 +118,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit_review'])) {
     <title>Booklish</title>
 </head>
 <body>
+    <h1>Welcome to online bookstore</h1>
     <h1 class="title">Available Books</h1>
 
     <form method="get" action="index.php" class="container">
