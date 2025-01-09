@@ -200,6 +200,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit_review'])) {
                     <?php endif; ?>
                 </div>
             </div>
+            <h3>Online bookstore</h3>
         <?php endforeach; ?>
     </div>
 </body>
